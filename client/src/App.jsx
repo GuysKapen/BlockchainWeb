@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar, Welcome } from "./components/index.js";
+import { Navbar, Welcome, Services, Footer } from "./components/index.js";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <Welcome />
     </div>
-    {/* <Services /> */}
+    <Services />
     {/* <Transactions /> */}
-    {/* <Footer /> */}
+    <Footer />
   </div>
   )
 }
