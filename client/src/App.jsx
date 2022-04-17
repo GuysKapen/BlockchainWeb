@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar, Welcome, Services, Footer } from "./components/index.js";
+import { Navbar, Welcome, Services, Transactions ,Footer } from "./components/index.js";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +12,7 @@ function App() {
       <Welcome />
     </div>
     <Services />
-    {/* <Transactions /> */}
+    <Transactions />
     <Footer />
   </div>
   )
